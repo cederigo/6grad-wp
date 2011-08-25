@@ -1,0 +1,101 @@
+html {
+  margin:0;
+  padding:0;
+  border:0;
+}
+/* Line-height should always be unitless! */
+body {
+  line-height: 1.5;
+  background: white;
+  margin: 0;
+  overflow: hidden;
+}
+
+div {
+  padding: 0;
+  margin: 0;
+}
+
+/*fb page*/
+#fb-page {
+  width: 520px;
+  height: 648px;
+  position: absolute;
+}
+
+.button {
+  position: absolute;
+  height: 20px;
+  width: 100px;
+  border: 0px solid black;
+  cursor: pointer;
+}
+
+.button.square {
+  width: 53px;
+  height: 53px;
+  bottom: 24px;
+}
+
+#fb-page #btn_sharefan {
+  right: 16px;
+  top: 72px;
+  width: 50px;
+}
+
+#fb-page #btn_book {
+  right: 0px;
+  top: 328px;
+  height: 132px;
+  width: inherit;
+}
+
+#fb-page #btn_contact {
+  left: 41px;
+  bottom: 19px;
+}
+
+#fb-page #btn_twitter {
+  left: 293px;
+}
+
+#fb-page #btn_mail {
+  left: 365px;
+}
+
+#fb-page #btn_rss {
+  right: 28px;
+}
+
+#fb-page #notfan {
+  width: inherit;
+  height: inherit; 
+  background:#ffffff url('../images/notfan.png') no-repeat left top;
+}
+
+#fb-page #fan {
+  width: inherit;
+  height: inherit;
+  display: none; 
+  background:#ffffff url('../images/fan.png') no-repeat left top;
+}
+
+#fan #btn_sharepdf {
+  width: 50px;
+  left: 45px;
+  top: 261px;
+}
+
+#fan #btn_invite {
+  width: 118px;
+  left: 114px;
+  top: 261px;
+}
+
+#fan #btn_download {
+  width: 100px;
+  height: 30px;
+  right: 30px;
+  top: 220px;
+}
+
