@@ -56,11 +56,8 @@ php?>
     
     var isFan = '<?php echo $isfan ?>';
     
-    //alert('isFan: ' + isFan);
-    
     if (isFan){
-      $('#notfan').hide();
-      $('#fan').show();
+      $('#notfan').fadeOut(500);
     }
 
   </script>

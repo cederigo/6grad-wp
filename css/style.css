@@ -21,6 +21,7 @@ div {
   width: 520px;
   height: 648px;
   position: absolute;
+  background:#ffffff url('../images/bg.png') no-repeat left top;
 }
 
 .button {
@@ -69,33 +70,38 @@ div {
 
 #fb-page #notfan {
   width: inherit;
-  height: inherit; 
-  background:#ffffff url('../images/notfan.png') no-repeat left top;
+  height: 157px; 
+  position: absolute;
+  top: 163px;
+  left: 0px;
+  background:#ffffff url('../images/notfan-part.png') no-repeat left top;
 }
 
 #fb-page #fan {
   width: inherit;
-  height: inherit;
-  display: none; 
-  background:#ffffff url('../images/fan.png') no-repeat left top;
+  height: 157px;
+  position: absolute;
+  top: 163px;
+  left: 0px;
+  background:#ffffff url('../images/fan-part.png') no-repeat left top;
 }
 
 #fan #btn_sharepdf {
   width: 50px;
   left: 45px;
-  top: 261px;
+  top: 99px;
 }
 
 #fan #btn_invite {
   width: 118px;
   left: 114px;
-  top: 261px;
+  top: 99px;
 }
 
 #fan #btn_download {
   width: 100px;
   height: 30px;
   right: 30px;
-  top: 220px;
+  top: 58px;
 }
 
